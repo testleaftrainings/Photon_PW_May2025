@@ -1,0 +1,124 @@
+
+Agenda for Day05 
+
+1.Handling Dropdown.
+2.Classroom in dropdown.
+3. Assertions Types.
+
+-------------------------
+
+Assesment automate Salesforce testcase -
+1. - Verify Lead Creation and Conversion to Opportunity.
+2. - Create and verify a New Case in Chatter
+
+-------------------------
+
+
+
+
+Handling Dropdown:
+
+1. Select tag.
+
+
+<select id="">
+<option value="option1">Option1</option>  0
+<option value="option2">Option2</option>  1
+<option value="option3">Option3</option>  2
+
+1. Select by Value
+<select id="category-filter"
+<option value="101">Electronics</option>
+<option value="102">Books</option>
+<option value="103">Clothes</option>
+<option value="104">Bags</option>
+
+2. Select by Label
+3. Select by Index
+
+
+
+2. Non-select tag.
+
+-div, ul,li
+
+1. Locate the dropdown- click / enter value
+2. Locate the particular option from the dropdown list - click it
+<div id = "#cutom-dropdown">
+<div class="">Option 1<div>
+<div class="">Option 1<div>
+
+
+Assertions:
+
+1. Generic Assertions- asserting the values in the test 
+toBe, toEqual, toBeGreater, toContain
+
+2. Locator Assertions
+toBeVisible, toBeEnabled, toHaveAttribute
+
+3. Page Assertions
+title,url
+
+4. Snap Assertions  --> Visual Testing
+
+5. API Reference Assertions --> API
+
+Functionality
+
+1. Retry Asssertions
+
+Assertion time - 5 secs
+1s
+1s
+1s
+1s
+1s
+1s
+
+2. Non-retry Assertion
+
+
+Types of assertons :
+
+
+1.Hard Assertion
+If the assertion is failed , the test execution is stopeed immedialtely- failed
+
+-Asserting username textbox is enabled.
+-Enter the username 
+-Asserting password textbox is enabled.//failed
+-Enter the password 
+-Asserting login button is visible.
+-Click the button
+
+
+
+2.Soft Assertion
+If the assertion is failed, it will not stop the test execution
+
+
+-Asserting username textbox is enabled.
+-Enter the username 
+-Asserting password textbox is enabled.//failed
+-Enter the password 
+-Asserting login button is visible.
+-Click the button
+
+expect.soft()
+
+Negating matchers
+
+expect(title).not.toBe('Amazon')
+
+expect(page.locator("#discount").not.toContain(40%)
+
+
+
+
+
+
+
+
+
+
