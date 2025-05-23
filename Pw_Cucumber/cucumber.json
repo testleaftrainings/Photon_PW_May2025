@@ -1,0 +1,21 @@
+{
+   "default":{
+     "formatOptions":{
+        "snippetInterface":"async-await"
+                  },
+        "paths":[
+             "./features/"
+        ],         
+        "require":[
+            "./helper/*.ts",
+            "./tests/*.ts"
+        ],
+     
+        "requireModule":["ts-node/register"],
+        "format":[
+            "html:./reports/cucumber_report.html",
+            "json:./reports/cucumber_reports.json"
+        ],
+        "parallel":2
+   }
+}

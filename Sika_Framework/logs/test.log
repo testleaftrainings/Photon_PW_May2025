@@ -1,0 +1,217 @@
+[2025-05-22 13:28:14] [INFO] [hooks]: Setting up test environment
+[2025-05-22 13:28:14] [INFO] [hooks]: Test environment setup complete
+[2025-05-22 13:28:14] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 13:28:14] [INFO] [hooks]: Using browser: msedge
+[2025-05-22 13:28:16] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 13:28:19] [INFO] [salesforceLoginPage]: Navigated to Salesforce login page
+[2025-05-22 13:28:19] [INFO] [wrapper]: Filling input[id='username'] with value: majay3574@gmail.com
+[2025-05-22 13:28:19] [INFO] [wrapper]: Filling input[id='password'] with value: Ajaymichael@321
+[2025-05-22 13:28:19] [INFO] [salesforceLoginPage]: Entered username and password
+[2025-05-22 13:28:19] [INFO] [wrapper]: Clicking on: input[id='Login']
+[2025-05-22 13:28:22] [INFO] [salesforceLoginPage]: Clicked on login button
+[2025-05-22 13:28:34] [INFO] [salesforceLoginPage]: User logged in successfully
+[2025-05-22 13:28:34] [INFO] [wrapper]: Waiting for .slds-icon-waffle to be visible
+[2025-05-22 13:28:35] [INFO] [wrapper]: Clicking on: .slds-icon-waffle
+[2025-05-22 13:28:35] [INFO] [salesforce-app-steps]: Clicked on App Launcher
+[2025-05-22 13:28:37] [INFO] [wrapper]: Waiting for //button[text()='View All'] to be visible
+[2025-05-22 13:28:37] [INFO] [wrapper]: Clicking on: //button[text()='View All']
+[2025-05-22 13:28:37] [INFO] [salesforce-app-steps]: Clicked on View All button
+[2025-05-22 13:28:37] [INFO] [wrapper]: Filling one-app-launcher-modal input.slds-input with value: Accounts
+[2025-05-22 13:28:39] [INFO] [salesforce-app-steps]: Searched for app: Accounts
+[2025-05-22 13:28:39] [INFO] [wrapper]: Clicking on: //mark[text()='Accounts']
+[2025-05-22 13:28:40] [INFO] [salesforce-app-steps]: Clicked on app: Accounts
+[2025-05-22 13:28:40] [INFO] [wrapper]: Waiting for div:text-is('New') to be visible
+[2025-05-22 13:28:43] [INFO] [wrapper]: Clicking on: div:text-is('New')
+[2025-05-22 13:28:43] [INFO] [salesforce-lead-steps]: Clicked on New Lead button
+[2025-05-22 13:28:43] [INFO] [wrapper]: Filling //label[text()='Account Name']//following::input[1] with value: Internal Directives Supervisor
+[2025-05-22 13:28:47] [INFO] [wrapper]: Filling //label[text()='Account Number']//following::input[1] with value: 80928758046
+[2025-05-22 13:28:47] [INFO] [wrapper]: Clicking on: //label[text()='Rating']//following::button[1]
+[2025-05-22 13:28:47] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Hot']
+[2025-05-22 13:28:47] [INFO] [wrapper]: Clicking on: //label[text()='Type']//following::button[1]
+[2025-05-22 13:28:47] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Customer - Channel']
+[2025-05-22 13:28:47] [INFO] [wrapper]: Clicking on: //label[text()='Industry']//following::button[1]
+[2025-05-22 13:28:48] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Banking']
+[2025-05-22 13:28:48] [INFO] [wrapper]: Clicking on: //label[text()='Ownership']//following::button[1]
+[2025-05-22 13:28:48] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Public']
+[2025-05-22 13:28:48] [INFO] [wrapper]: Filling //label[text()='Billing Street']//following::textarea[1] with value: 123 Tech Rd
+[2025-05-22 13:28:48] [INFO] [wrapper]: Filling //label[text()='Billing City']//following::input[1] with value: Chennai
+[2025-05-22 13:28:49] [INFO] [wrapper]: Filling //label[text()='Billing Zip/Postal Code']//following::input[1] with value: 600001
+[2025-05-22 13:28:49] [INFO] [wrapper]: Filling //label[text()='Billing State/Province']//following::input[1] with value: Tamil Nadu
+[2025-05-22 13:28:49] [INFO] [wrapper]: Filling //label[text()='Billing Country']//following::input[1] with value: India
+[2025-05-22 13:28:49] [INFO] [salesforce-account-steps]:  Created account
+[2025-05-22 13:28:49] [INFO] [wrapper]: Clicking on: //button[text()='Save']
+[2025-05-22 13:28:50] [INFO] [salesforce-lead-steps]: Clicked on Save button
+[2025-05-22 13:28:50] [INFO] [wrapper]: Waiting for div[class^='entityNameTitle'] + slot to be visible
+[2025-05-22 13:28:52] [INFO] [wrapper]: Getting text from: div[class^='entityNameTitle'] + slot
+[2025-05-22 13:28:52] [INFO] [wrapper]: Text content: Internal Directives Supervisor
+[2025-05-22 13:28:52] [INFO] [salesforce-account-steps]: Verified account name: Internal Directives Supervisor
+[2025-05-22 13:28:52] [INFO] [hooks]: Finishing scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 13:28:52] [INFO] [hooks]: Screenshot saved to: ./reports/screenshots/Create-a-new-case-in-Salesforce-and-create-Account1747900732374-failure.png
+[2025-05-22 13:28:54] [INFO] [hooks]: Trace saved to: ./reports/traces/Create-a-new-case-in-Salesforce-and-create-Account1747900732577.zip
+[2025-05-22 13:28:55] [INFO] [hooks]: Scenario completed in 40281ms
+[2025-05-22 13:28:55] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 13:28:55] [INFO] [hooks]: Using browser: msedge
+[2025-05-22 13:28:56] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 13:28:58] [INFO] [salesforceLoginPage]: Navigated to Salesforce login page
+[2025-05-22 13:28:58] [INFO] [wrapper]: Filling input[id='username'] with value: majay3574@gmail.com
+[2025-05-22 13:28:58] [INFO] [wrapper]: Filling input[id='password'] with value: Ajaymichael@321
+[2025-05-22 13:28:58] [INFO] [salesforceLoginPage]: Entered username and password
+[2025-05-22 13:28:58] [INFO] [wrapper]: Clicking on: input[id='Login']
+[2025-05-22 13:29:02] [INFO] [salesforceLoginPage]: Clicked on login button
+[2025-05-22 13:29:15] [INFO] [salesforceLoginPage]: User logged in successfully
+[2025-05-22 13:29:15] [INFO] [wrapper]: Waiting for .slds-icon-waffle to be visible
+[2025-05-22 13:29:15] [INFO] [wrapper]: Clicking on: .slds-icon-waffle
+[2025-05-22 13:29:15] [INFO] [salesforce-app-steps]: Clicked on App Launcher
+[2025-05-22 13:29:17] [INFO] [wrapper]: Waiting for //button[text()='View All'] to be visible
+[2025-05-22 13:29:17] [INFO] [wrapper]: Clicking on: //button[text()='View All']
+[2025-05-22 13:29:17] [INFO] [salesforce-app-steps]: Clicked on View All button
+[2025-05-22 13:29:17] [INFO] [wrapper]: Filling one-app-launcher-modal input.slds-input with value: Accounts
+[2025-05-22 13:29:22] [INFO] [salesforce-app-steps]: Searched for app: Accounts
+[2025-05-22 13:29:22] [INFO] [wrapper]: Clicking on: //mark[text()='Accounts']
+[2025-05-22 13:29:23] [INFO] [salesforce-app-steps]: Clicked on app: Accounts
+[2025-05-22 13:29:23] [INFO] [wrapper]: Waiting for div:text-is('New') to be visible
+[2025-05-22 13:29:26] [INFO] [wrapper]: Clicking on: div:text-is('New')
+[2025-05-22 13:29:27] [INFO] [salesforce-lead-steps]: Clicked on New Lead button
+[2025-05-22 13:29:27] [INFO] [wrapper]: Filling //label[text()='Account Name']//following::input[1] with value: Product Accounts Analyst
+[2025-05-22 13:29:30] [INFO] [wrapper]: Filling //label[text()='Account Number']//following::input[1] with value: 19358803081
+[2025-05-22 13:29:30] [INFO] [wrapper]: Clicking on: //label[text()='Rating']//following::button[1]
+[2025-05-22 13:29:30] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Warm']
+[2025-05-22 13:29:31] [INFO] [wrapper]: Clicking on: //label[text()='Type']//following::button[1]
+[2025-05-22 13:29:31] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Installation Partner']
+[2025-05-22 13:29:31] [INFO] [wrapper]: Clicking on: //label[text()='Industry']//following::button[1]
+[2025-05-22 13:29:31] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Engineering']
+[2025-05-22 13:29:31] [INFO] [wrapper]: Clicking on: //label[text()='Ownership']//following::button[1]
+[2025-05-22 13:29:32] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Private']
+[2025-05-22 13:29:32] [INFO] [wrapper]: Filling //label[text()='Billing Street']//following::textarea[1] with value: 456 Tech Rd
+[2025-05-22 13:29:32] [INFO] [wrapper]: Filling //label[text()='Billing City']//following::input[1] with value: Chennai
+[2025-05-22 13:29:33] [INFO] [wrapper]: Filling //label[text()='Billing Zip/Postal Code']//following::input[1] with value: 600002
+[2025-05-22 13:29:33] [INFO] [wrapper]: Filling //label[text()='Billing State/Province']//following::input[1] with value: Tamil Nadu
+[2025-05-22 13:29:33] [INFO] [wrapper]: Filling //label[text()='Billing Country']//following::input[1] with value: India
+[2025-05-22 13:29:33] [INFO] [salesforce-account-steps]:  Created account
+[2025-05-22 13:29:33] [INFO] [wrapper]: Clicking on: //button[text()='Save']
+[2025-05-22 13:29:34] [INFO] [salesforce-lead-steps]: Clicked on Save button
+[2025-05-22 13:29:34] [INFO] [wrapper]: Waiting for div[class^='entityNameTitle'] + slot to be visible
+[2025-05-22 13:29:35] [INFO] [wrapper]: Getting text from: div[class^='entityNameTitle'] + slot
+[2025-05-22 13:29:35] [INFO] [wrapper]: Text content: Product Accounts Analyst
+[2025-05-22 13:29:35] [INFO] [salesforce-account-steps]: Verified account name: Product Accounts Analyst
+[2025-05-22 13:29:35] [INFO] [hooks]: Finishing scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 13:29:36] [INFO] [hooks]: Screenshot saved to: ./reports/screenshots/Create-a-new-case-in-Salesforce-and-create-Account1747900775588-failure.png
+[2025-05-22 13:29:37] [INFO] [hooks]: Trace saved to: ./reports/traces/Create-a-new-case-in-Salesforce-and-create-Account1747900776139.zip
+[2025-05-22 13:29:38] [INFO] [hooks]: Scenario completed in 43212ms
+[2025-05-22 13:29:38] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-update-chatter
+[2025-05-22 13:29:38] [INFO] [hooks]: Using browser: msedge
+[2025-05-22 13:29:39] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 13:29:42] [INFO] [salesforceLoginPage]: Navigated to Salesforce login page
+[2025-05-22 13:29:42] [INFO] [wrapper]: Filling input[id='username'] with value: majay3574@gmail.com
+[2025-05-22 13:29:42] [INFO] [wrapper]: Filling input[id='password'] with value: Ajaymichael@321
+[2025-05-22 13:29:42] [INFO] [salesforceLoginPage]: Entered username and password
+[2025-05-22 13:29:42] [INFO] [wrapper]: Clicking on: input[id='Login']
+[2025-05-22 13:29:47] [INFO] [salesforceLoginPage]: Clicked on login button
+[2025-05-22 13:30:02] [INFO] [salesforceLoginPage]: User logged in successfully
+[2025-05-22 13:30:02] [INFO] [wrapper]: Waiting for .slds-icon-waffle to be visible
+[2025-05-22 13:30:02] [INFO] [wrapper]: Clicking on: .slds-icon-waffle
+[2025-05-22 13:30:02] [INFO] [salesforce-app-steps]: Clicked on App Launcher
+[2025-05-22 13:30:04] [INFO] [wrapper]: Waiting for //button[text()='View All'] to be visible
+[2025-05-22 13:30:05] [INFO] [wrapper]: Clicking on: //button[text()='View All']
+[2025-05-22 13:30:06] [INFO] [salesforce-app-steps]: Clicked on View All button
+[2025-05-22 13:30:06] [INFO] [wrapper]: Filling one-app-launcher-modal input.slds-input with value: Leads
+[2025-05-22 13:30:07] [INFO] [salesforce-app-steps]: Searched for app: Leads
+[2025-05-22 13:30:07] [INFO] [wrapper]: Clicking on: //mark[text()='Leads']
+[2025-05-22 13:30:09] [INFO] [salesforce-app-steps]: Clicked on app: Leads
+[2025-05-22 13:30:09] [INFO] [wrapper]: Waiting for div:text-is('New') to be visible
+[2025-05-22 13:30:13] [INFO] [wrapper]: Clicking on: div:text-is('New')
+[2025-05-22 13:30:14] [INFO] [salesforce-lead-steps]: Clicked on New Lead button
+[2025-05-22 13:30:14] [INFO] [wrapper]: Clicking on: button[name='salutation']
+[2025-05-22 13:30:17] [INFO] [wrapper]: Clicking on: span:text-is('Mr.')
+[2025-05-22 13:30:18] [INFO] [wrapper]: Filling //label[text()='First Name']//following::input[1] with value: Ephraim
+[2025-05-22 13:30:18] [INFO] [wrapper]: Filling //label[text()='Last Name']//following::input[1] with value: Murray
+[2025-05-22 13:30:18] [INFO] [wrapper]: Filling //label[text()='Company']//following::input[1] with value: Regional Group Strategist
+[2025-05-22 13:30:19] [INFO] [salesforce-lead-steps]: Entered Lead: Ephraim Murray, Company: undefined
+[2025-05-22 13:30:19] [INFO] [wrapper]: Clicking on: //button[text()='Save']
+[2025-05-22 13:30:19] [INFO] [salesforce-lead-steps]: Clicked on Save button
+[2025-05-22 13:30:19] [INFO] [wrapper]: Waiting for slot[name='primaryField'] lightning-formatted-name to be visible
+[2025-05-22 13:30:20] [INFO] [wrapper]: Getting text from: slot[name='primaryField'] lightning-formatted-name
+[2025-05-22 13:30:21] [INFO] [wrapper]: Text content: Mr. Ephraim Murray
+[2025-05-22 13:30:21] [INFO] [salesforce-lead-steps]: Verified created lead with name: Mr. Ephraim Murray
+[2025-05-22 13:30:21] [INFO] [hooks]: Finishing scenario: Create-a-new-case-in-Salesforce-and-update-chatter
+[2025-05-22 13:30:21] [INFO] [hooks]: Screenshot saved to: ./reports/screenshots/Create-a-new-case-in-Salesforce-and-update-chatter1747900821133-failure.png
+[2025-05-22 13:30:23] [INFO] [hooks]: Trace saved to: ./reports/traces/Create-a-new-case-in-Salesforce-and-update-chatter1747900821898.zip
+[2025-05-22 13:30:24] [INFO] [hooks]: Scenario completed in 45861ms
+[2025-05-22 13:30:24] [INFO] [hooks]: Cleaning up test environment
+[2025-05-22 13:30:24] [INFO] [hooks]: Test environment cleanup complete
+[2025-05-22 18:20:13] [INFO] [hooks]: Setting up test environment
+[2025-05-22 18:20:13] [INFO] [hooks]: Test environment setup complete
+[2025-05-22 18:20:13] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:20:13] [INFO] [hooks]: Using browser: msedge
+[2025-05-22 18:20:15] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 18:20:20] [INFO] [salesforceLoginPage]: Navigated to Salesforce login page
+[2025-05-22 18:20:20] [INFO] [wrapper]: Filling input[id='username'] with value: majay3574@gmail.com
+[2025-05-22 18:20:20] [INFO] [wrapper]: Filling input[id='password'] with value: Ajaymichael@321
+[2025-05-22 18:20:20] [INFO] [salesforceLoginPage]: Entered username and password
+[2025-05-22 18:20:20] [INFO] [wrapper]: Clicking on: input[id='Login']
+[2025-05-22 18:20:27] [INFO] [salesforceLoginPage]: Clicked on login button
+[2025-05-22 18:20:52] [INFO] [salesforceLoginPage]: User logged in successfully
+[2025-05-22 18:20:52] [INFO] [wrapper]: Waiting for .slds-icon-waffle to be visible
+[2025-05-22 18:20:52] [INFO] [wrapper]: Clicking on: .slds-icon-waffle
+[2025-05-22 18:20:52] [INFO] [salesforce-app-steps]: Clicked on App Launcher
+[2025-05-22 18:20:54] [INFO] [wrapper]: Waiting for //button[text()='View All'] to be visible
+[2025-05-22 18:20:55] [INFO] [wrapper]: Clicking on: //button[text()='View All']
+[2025-05-22 18:20:56] [INFO] [salesforce-app-steps]: Clicked on View All button
+[2025-05-22 18:20:56] [INFO] [wrapper]: Filling one-app-launcher-modal input.slds-input with value: Accounts
+[2025-05-22 18:21:05] [INFO] [salesforce-app-steps]: Searched for app: Accounts
+[2025-05-22 18:21:05] [INFO] [wrapper]: Clicking on: //mark[text()='Accounts']
+[2025-05-22 18:21:06] [INFO] [salesforce-app-steps]: Clicked on app: Accounts
+[2025-05-22 18:21:06] [INFO] [wrapper]: Waiting for div:text-is('New') to be visible
+[2025-05-22 18:21:10] [INFO] [wrapper]: Clicking on: div:text-is('New')
+[2025-05-22 18:21:10] [INFO] [salesforce-lead-steps]: Clicked on New Lead button
+[2025-05-22 18:21:10] [INFO] [wrapper]: Filling //label[text()='Account Name']//following::input[1] with value: Legacy Division Representative
+[2025-05-22 18:21:14] [INFO] [wrapper]: Filling //label[text()='Account Number']//following::input[1] with value: 54076967307
+[2025-05-22 18:21:14] [INFO] [wrapper]: Clicking on: //label[text()='Rating']//following::button[1]
+[2025-05-22 18:21:14] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Hot']
+[2025-05-22 18:21:15] [INFO] [wrapper]: Clicking on: //label[text()='Type']//following::button[1]
+[2025-05-22 18:21:15] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Customer - Channel']
+[2025-05-22 18:21:15] [INFO] [wrapper]: Clicking on: //label[text()='Industry']//following::button[1]
+[2025-05-22 18:21:15] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Banking']
+[2025-05-22 18:21:16] [INFO] [wrapper]: Clicking on: //label[text()='Ownership']//following::button[1]
+[2025-05-22 18:21:16] [INFO] [wrapper]: Clicking on: //span[normalize-space()='Public']
+[2025-05-22 18:21:16] [INFO] [wrapper]: Filling //label[text()='Billing Street']//following::textarea[1] with value: 123 Tech Rd
+[2025-05-22 18:21:17] [INFO] [wrapper]: Filling //label[text()='Billing City']//following::input[1] with value: Chennai
+[2025-05-22 18:21:18] [INFO] [wrapper]: Filling //label[text()='Billing Zip/Postal Code']//following::input[1] with value: 600001
+[2025-05-22 18:21:18] [INFO] [wrapper]: Filling //label[text()='Billing State/Province']//following::input[1] with value: Tamil Nadu
+[2025-05-22 18:21:19] [INFO] [wrapper]: Filling //label[text()='Billing Country']//following::input[1] with value: India
+[2025-05-22 18:21:19] [INFO] [hooks]: Finishing scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:21:19] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:21:19] [INFO] [hooks]: Using browser: msedge
+[2025-05-22 18:21:21] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 18:21:39] [INFO] [hooks]: Setting up test environment
+[2025-05-22 18:21:39] [INFO] [hooks]: Test environment setup complete
+[2025-05-22 18:21:39] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:21:39] [INFO] [hooks]: Using browser: chrome
+[2025-05-22 18:21:40] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 18:21:41] [INFO] [salesforceLoginPage]: Navigated to Salesforce login page
+[2025-05-22 18:21:42] [INFO] [wrapper]: Filling input[id='username'] with value: majay3574@gmail.com
+[2025-05-22 18:21:42] [INFO] [wrapper]: Filling input[id='password'] with value: Ajaymichael@321
+[2025-05-22 18:21:42] [INFO] [salesforceLoginPage]: Entered username and password
+[2025-05-22 18:21:42] [INFO] [wrapper]: Clicking on: input[id='Login']
+[2025-05-22 18:21:48] [INFO] [salesforceLoginPage]: Clicked on login button
+[2025-05-22 18:22:15] [INFO] [salesforceLoginPage]: User logged in successfully
+[2025-05-22 18:22:15] [INFO] [wrapper]: Waiting for .slds-icon-waffle to be visible
+[2025-05-22 18:22:15] [INFO] [wrapper]: Clicking on: .slds-icon-waffle
+[2025-05-22 18:22:15] [INFO] [salesforce-app-steps]: Clicked on App Launcher
+[2025-05-22 18:22:18] [INFO] [wrapper]: Waiting for //button[text()='View All'] to be visible
+[2025-05-22 18:22:48] [INFO] [hooks]: Finishing scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:22:48] [INFO] [hooks]: Screenshot saved to: ./reports/screenshots/Create-a-new-case-in-Salesforce-and-create-Account1747918368178-failure.png
+[2025-05-22 18:22:49] [INFO] [hooks]: Trace saved to: ./reports/traces/Create-a-new-case-in-Salesforce-and-create-Account1747918368507.zip
+[2025-05-22 18:22:50] [INFO] [hooks]: Scenario completed in 70978ms
+[2025-05-22 18:22:50] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:22:50] [INFO] [hooks]: Using browser: chrome
+[2025-05-22 18:22:50] [INFO] [wrapper]: Navigating to: https://login.salesforce.com/?locale=in
+[2025-05-22 18:22:52] [INFO] [salesforceLoginPage]: Navigated to Salesforce login page
+[2025-05-22 18:22:52] [INFO] [wrapper]: Filling input[id='username'] with value: majay3574@gmail.com
+[2025-05-22 18:22:52] [INFO] [wrapper]: Filling input[id='password'] with value: Ajaymichael@321
+[2025-05-22 18:22:52] [INFO] [salesforceLoginPage]: Entered username and password
+[2025-05-22 18:22:52] [INFO] [wrapper]: Clicking on: input[id='Login']
+[2025-05-22 18:22:59] [INFO] [salesforceLoginPage]: Clicked on login button
+[2025-05-22 18:22:59] [INFO] [hooks]: Finishing scenario: Create-a-new-case-in-Salesforce-and-create-Account
+[2025-05-22 18:22:59] [INFO] [hooks]: Starting scenario: Create-a-new-case-in-Salesforce-and-update-chatter
+[2025-05-22 18:22:59] [INFO] [hooks]: Using browser: chrome
